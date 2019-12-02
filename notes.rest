@@ -1,0 +1,16 @@
+http://localhost:3001/notes/1
+
+###
+
+POST http://localhost:3001/notes
+Content-Type: application/json
+
+{
+  "content": "tämä testi tulee editorista",
+  "important": true
+}
+
+<> 2019-12-01T053355.200.json
+<> 2019-12-01T053317.404.html
+
+###
