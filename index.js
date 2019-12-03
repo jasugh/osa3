@@ -15,7 +15,7 @@ let notes = [
     },
     {
         id: 2,
-        content: "Browser can execute only Javascript",
+        content: "Browser can execute only Javascript xxxxzzzz",
         date: "2019-05-30T18:39:34.091Z",
         important: false
     },
@@ -25,7 +25,7 @@ let notes = [
         date: "2019-05-30T19:20:14.298Z",
         important: true
     }
-]; 
+];
 
 app.get('/', (req, res) => {
     res.send('<h1>Hello World!</h1>')
