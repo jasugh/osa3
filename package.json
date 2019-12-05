@@ -8,7 +8,7 @@
     "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ui": "rmdir build /q /s && cd ../../test/osa2cde && npm run build --prod && xcopy build ..\\\\osa3a\\\\build /E /I",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy"
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   },
   "author": "Jukka",
   "license": "MIT",
